@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BistroOnionProject.Domain\BistroOnionProject.Domain\BistroOnionProject.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\BistroOnionProject.Application\BistroOnionProject.Application\BistroOnionProject.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\BistroOnionProject.Infrastructure\BistroOnionProject.Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\..\Presentation\BistroOnionProject.Presentation.API\BistroOnionProject.Presentation.API.csproj" />
+  </ItemGroup>
+
+</Project>
